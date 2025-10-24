@@ -5,6 +5,10 @@
   "exports": {
     "./client": "./src/index.ts"
   },
+  "scripts": {
+    "generate": "prisma generate",
+    "postinstall": "prisma generate"
+  },
   "keywords": [],
   "author": "",
   "devDependencies": {
